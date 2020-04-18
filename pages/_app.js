@@ -16,6 +16,8 @@ class JaypDev extends App {
           .app,
           #__next {
             height: 100%;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
           }
         `}</style>
       </div>
