@@ -5,10 +5,9 @@ import Index from './index';
 
 class JaypDev extends App {
   render() {
-    const { Component, pageProps } = this.props;
     return (
       <div className="app">
-        <Index {...pageProps} />
+        <Index />
         <style jsx global>{`
           /* Other global styles such as 'html, body' etc... */
           body,
