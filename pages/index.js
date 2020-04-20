@@ -11,14 +11,18 @@ const Index = () => {
     <div className="content">
       <div className="hero">
         <div className="punchline">
-          <h1>Janne Parviainen</h1>
-          <h4>
+          <span>Janne Parviainen</span>
+          <span>
             {'{'} And I'm a web developer {'}'}
-          </h4>
+          </span>
         </div>
       </div>
       <div className="intro-skills">
         <div className="intro">
+          <QA question="Who am I?" answer={lorem} />
+          <QA question="What do I do?" answer={lorem} />
+          <QA question="What do I want to do?" answer={lorem} />
+          <QA question="What am I looking for?" answer={lorem} />
           <QA question="Who am I?" answer={lorem} />
           <QA question="What do I do?" answer={lorem} />
           <QA question="What do I want to do?" answer={lorem} />
@@ -41,17 +45,17 @@ const Index = () => {
         }
 
         .hero {
-          background-image: url('/imgs/hero_city.jpg');
+          background-image: url('/imgs/hero_brick.jpg');
           height: 50%;
           background-position: center;
           background-repeat: no-repeat;
-          background-size: cover;
+          background-size: auto;
           position: relative;
         }
 
         .punchline {
           color: white;
-          background: rgba(100, 100, 50, 0.6);
+          background: rgba(100, 170, 250, 0.6);
           padding: 10px;
           border-radius: 25px;
           position: absolute;
@@ -60,6 +64,14 @@ const Index = () => {
           transform: translate(-50%, -50%);
           text-align: center;
           font-size: 20px;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .punchline > span {
+          margin-bottom: 10px;
+          font-weight: 600px;
         }
 
         .intro-skills {
