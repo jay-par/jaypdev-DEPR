@@ -45,11 +45,11 @@ const Index = () => {
         }
 
         .hero {
-          background-image: url('/imgs/hero_brick.jpg');
+          background-image: url('/imgs/hero_brick_optimized.jpg');
           height: 50%;
           background-position: center;
           background-repeat: no-repeat;
-          background-size: auto;
+          background-size: cover;
           position: relative;
         }
 
