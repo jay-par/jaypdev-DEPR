@@ -32,7 +32,7 @@ const Header = () => {
     <StyledHeader>
       <div className="intro">
         <h1 className="name">Janne Parviainen</h1>
-        <em className="buzz">Business minded web developer, avid gamer, tech enthusiast, traveller</em>
+        <em className="buzz">Business minded web developer, avid gamer, tech enthusiast, people person</em>
       </div>
       <StyledSelfie src="imgs/selfie.png" />
     </StyledHeader>
