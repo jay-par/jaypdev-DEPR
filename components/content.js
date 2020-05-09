@@ -3,7 +3,12 @@ import styled from 'styled-components';
 import QA from './qa';
 import Skill from './skill';
 import Socials from './socials';
-import { FaBeer } from 'react-icons/fa';
+import { Lock, DeveloperMode } from '@styled-icons/material';
+import { ReactLogo } from '@styled-icons/boxicons-logos';
+import { Node, JsSquare, Java } from '@styled-icons/fa-brands';
+import { Bubbles } from '@styled-icons/icomoon';
+import { Code, Blackboard, LineGraph } from '@styled-icons/entypo';
+import { Cloud } from '@styled-icons/boxicons-regular';
 
 const lorem =
   'Pellentesque in leo molestie nulla pulvinar varius. Pellentesque nec nisi sed velit pulvinar maximus varius eu urna. Phasellus luctus libero ultricies congue consectetur. Sed ut lectus imperdiet, posuere enim vitae, efficitur lorem. Nulla maximus aliquet enim, in lobortis nisl porttitor id. Suspendisse vitae cursus arcu. Integer sit amet egestas ante, et egestas diam. Donec non fringilla neque. ';
@@ -64,13 +69,21 @@ const Content = () => {
       </StyledColumnLeft>
       <StyledColumnRight>
         <h2>What I know:</h2>
-        <Skill icon={<FaBeer />} skill="js" />
-        <Skill icon={<FaBeer />} skill="React" />
-        <Skill icon={<FaBeer />} skill="Web dev" />
-        <Skill icon={<FaBeer />} skill="Business dev" />
-        <Skill icon={<FaBeer />} skill="Mentoring" />
-        <Skill icon={<FaBeer />} skill="Node" />
-        <Skill icon={<FaBeer />} skill="AWS + Azure" />
+        <Skill icon={<JsSquare size={30} title="Typescript and Javascript development" />} skill="JS/TS" />
+        <Skill icon={<Node size={30} title="Nodejs development, apis, backend services" />} skill="Node" />
+        <Skill icon={<ReactLogo size="30" title="React" />} skill="React" />
+        <Skill icon={<Code size={30} />} skill="Web development" />
+        <Skill
+          icon={<LineGraph size={30} title="Finding new ways of doing and growing business" />}
+          skill="Business development"
+        />
+        <Skill
+          icon={<Bubbles size={30} title="People development, learning, listening, sparring" />}
+          skill="Mentoring"
+        />
+        <Skill icon={<Java size={30} title="Java developent" />} skill="Java" />
+        <Skill icon={<Cloud size={30} title="AWS & Azure environments" />} skill="Cloud environments" />
+        <Skill icon={<Lock size="30" title="Identity & Access Management" />} skill="IAM" />
         <Socials />
       </StyledColumnRight>
     </StyledWrapper>

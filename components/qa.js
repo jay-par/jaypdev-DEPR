@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaRegQuestionCircle } from 'react-icons/fa';
 
 const StyledWrapper = styled.div`
   display: flex;
@@ -24,7 +23,6 @@ const QA = ({ question, answer }) => {
   return (
     <>
       <StyledWrapper>
-        <FaRegQuestionCircle size={30} />
         <StyledQuestion>{question}</StyledQuestion>
       </StyledWrapper>
       <StyledAnswer>{answer}</StyledAnswer>

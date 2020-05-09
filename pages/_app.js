@@ -16,7 +16,6 @@ class JaypDev extends App {
             max-width: 1000px;
             height: 100%;
             margin: 48px auto;
-          
           }
           ,
           html,
