@@ -26,7 +26,7 @@ const Socials = () => {
       </Link>
       <Link href="//github.com/mr-jayp">
         <a target="_blank">
-          <img src="imgs/Octocat.png" />
+          <img src="imgs/GitHub-Mark-64px.png" />
         </a>
       </Link>
     </StyledSocials>
