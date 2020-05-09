@@ -33,7 +33,7 @@ const StyledHeader = styled.div`
   }
 
   .socials img {
-    width: 48px;
+    width: 44px;
     margin: 5px;
   }
 

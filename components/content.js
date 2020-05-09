@@ -11,7 +11,7 @@ const StyledWrapper = styled.div`
   display: flex;
   flex-direction: row;
   max-width: 1000px;
-  margin-top: -300px;
+  margin-top: -330px;
   @media only screen and (max-width: 1024px) {
     flex-direction: column;
     margin-top: 0;
