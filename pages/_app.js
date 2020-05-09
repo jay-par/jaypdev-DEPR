@@ -10,15 +10,18 @@ class JaypDev extends App {
         <Index />
         <style jsx global>{`
           /* Other global styles such as 'html, body' etc... */
-          body,
-          html,
-          .app,
-          #__next {
+          body {
+            font-family: 'Fira Sans', sans-serif;
+            background-color: #ebeb6d;
             max-width: 1000px;
             height: 100%;
-            background-color: #ebeb6d;
-            margin: auto;
+            margin: 48px auto;
+          
           }
+          ,
+          html,
+          .app,
+          #__next 
         `}</style>
       </div>
     );

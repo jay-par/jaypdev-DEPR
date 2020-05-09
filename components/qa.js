@@ -1,29 +1,29 @@
 import React from 'react';
+import styled from 'styled-components';
 import { FaRegQuestionCircle } from 'react-icons/fa';
+
+const StyledWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+`;
+
+const StyledQuestion = styled.h2`
+  padding: 0 0 0 10px;
+  font-family: 'Old Standard TT', serif;
+`;
+
+const StyledAnswer = styled.div``;
 
 const QA = ({ question, answer }) => {
   return (
-    <div>
-      <div className="questionRow">
+    <>
+      <StyledWrapper>
         <FaRegQuestionCircle size={30} />
-        <span className="question">{question}</span>
-      </div>
+        <StyledQuestion>{question}</StyledQuestion>
+      </StyledWrapper>
       <p>{answer}</p>
-      <style jsx>{`
-        .questionRow {
-          display: flex;
-          align-items: center;
-        }
-        .skillIcon {
-          padding: 10px;
-        }
-        .question {
-          margin-left: 20px;
-          font-weight: 600;
-          font-size: 20px;
-        }
-      `}</style>
-    </div>
+    </>
   );
 };
 
