@@ -1,19 +1,16 @@
 import { addBasePath } from 'next/dist/next-server/lib/router/router';
-import QA from '../components/qa';
-import Skill from '../components/skill';
 import Header from '../components/header';
-import { FaBeer } from 'react-icons/fa';
-import styled from 'styled-components';
+import Content from '../components/content';
 
 const lorem =
   'Pellentesque in leo molestie nulla pulvinar varius. Pellentesque nec nisi sed velit pulvinar maximus varius eu urna. Phasellus luctus libero ultricies congue consectetur. Sed ut lectus imperdiet, posuere enim vitae, efficitur lorem. Nulla maximus aliquet enim, in lobortis nisl porttitor id. Suspendisse vitae cursus arcu. Integer sit amet egestas ante, et egestas diam. Donec non fringilla neque. ';
 
-const StyledContent = styled.div``;
 const Index = () => {
   return (
-    <StyledContent>
+    <>
       <Header />
-    </StyledContent>
+      <Content />
+    </>
   );
 };
 
