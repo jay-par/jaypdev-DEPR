@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import QA from './qa';
 import Skill from './skill';
+import Socials from './socials';
 import { FaBeer } from 'react-icons/fa';
 
 const lorem =
@@ -70,6 +71,7 @@ const Content = () => {
         <Skill icon={<FaBeer />} skill="Mentoring" />
         <Skill icon={<FaBeer />} skill="Node" />
         <Skill icon={<FaBeer />} skill="AWS + Azure" />
+        <Socials />
       </StyledColumnRight>
     </StyledWrapper>
   );

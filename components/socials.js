@@ -15,17 +15,17 @@ const Socials = () => {
   return (
     <StyledSocials>
       <Link href="//www.linkedin.com/in/janneparviainen/">
-        <a>
+        <a target="_blank">
           <img src="imgs/LI-In-Bug.png" />
         </a>
       </Link>
       <Link href="//twitter.com/mr_jay_pea">
-        <a>
+        <a target="_blank">
           <img src="imgs/Twitter_Social_Icon_Circle_Color.png" />
         </a>
       </Link>
       <Link href="//github.com/mr-jayp">
-        <a>
+        <a target="_blank">
           <img src="imgs/Octocat.png" />
         </a>
       </Link>
