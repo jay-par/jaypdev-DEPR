@@ -1,4 +1,5 @@
 import App from 'next/app';
+import Head from 'next/head';
 import React from 'react';
 
 import Index from './index';
@@ -7,6 +8,9 @@ class JaypDev extends App {
   render() {
     return (
       <div className="app">
+        <Head>
+          <title>Janne Parviainen - web developer</title>
+        </Head>
         <Index />
         <style jsx global>{`
           /* Other global styles such as 'html, body' etc... */

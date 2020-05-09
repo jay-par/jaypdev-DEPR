@@ -14,6 +14,7 @@ const StyledHeader = styled.div`
   .buzz {
     font-size: 1.4em;
     width: 100%;
+    font-weight: 500;
   }
 
   .intro {
@@ -41,7 +42,7 @@ const Header = () => {
           <div className="name-profiles">
             <h1 className="name">Janne Parviainen</h1>
           </div>
-          <em className="buzz">Business-minded web developer, avid gamer, tech enthusiast, people person</em>
+          <em className="buzz">Business-minded fullstack developer, avid gamer, tech enthusiast, people person</em>
         </div>
       </StyledHeader>
     </>
