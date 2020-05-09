@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Link from 'next/link';
 
 const StyledSocials = styled.div`
-  margin: 10px 0 0 10px;
+  margin: 10px 0 0 0;
 
   img {
     width: 44px;
