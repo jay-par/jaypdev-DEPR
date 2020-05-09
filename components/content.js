@@ -55,6 +55,10 @@ const Divider = styled.hr`
   border-top: 1px solid black;
 `;
 
+const StyledQuestion = styled.h2`
+  font-family: 'Old Standard TT', serif;
+`;
+
 const Content = () => {
   return (
     <StyledWrapper>
@@ -68,7 +72,7 @@ const Content = () => {
         <QA question="What am I looking for?" answer={lorem} />
       </StyledColumnLeft>
       <StyledColumnRight>
-        <h2>What I know:</h2>
+        <StyledQuestion>What I know:</StyledQuestion>
         <Skill icon={<JsSquare size={30} title="Typescript and Javascript development" />} skill="JS/TS" />
         <Skill icon={<Node size={30} title="Nodejs development, apis, backend services" />} skill="Node" />
         <Skill icon={<ReactLogo size="30" title="React" />} skill="React" />
