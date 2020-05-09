@@ -23,7 +23,7 @@ const StyledColumnLeft = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 650px;
-  padding: 10px;
+  padding: 32px;
   margin: 20px 20px 20px 0;
   background-color: #ffffee;
   border-radius: 4px;
@@ -42,13 +42,23 @@ const StyledColumnRight = styled.div`
   }
 `;
 
+const Divider = styled.hr`
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid black;
+`;
+
 const Content = () => {
   return (
     <StyledWrapper>
       <StyledColumnLeft>
         <QA question="Who am I?" answer={lorem} />
+        <Divider />
         <QA question="What do I do?" answer={lorem} />
+        <Divider />
         <QA question="What do I want to do?" answer={lorem} />
+        <Divider />
         <QA question="What am I looking for?" answer={lorem} />
       </StyledColumnLeft>
       <StyledColumnRight>
