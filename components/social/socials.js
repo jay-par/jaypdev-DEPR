@@ -1,15 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
 import Link from 'next/link';
-
-const StyledSocials = styled.div`
-  margin: 10px 0 0 0;
-
-  img {
-    width: 44px;
-    margin: 5px;
-  }
-`;
+import { StyledSocials } from './style';
 
 const Socials = () => {
   return (
