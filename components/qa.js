@@ -8,7 +8,6 @@ const StyledWrapper = styled.div`
 `;
 
 const StyledQuestion = styled.h2`
-  padding: 0 0 0 10px;
   font-family: 'Old Standard TT', serif;
 `;
 
