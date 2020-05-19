@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Socials from './socials';
 
 const StyledHeader = styled.div`
   font-family: 'Old Standard TT', serif;
