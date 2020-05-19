@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeaderWrapper, Buzz } from './style';
+import { HeaderWrapper, Buzz, Name } from './style';
 
 const Header = () => {
   return (
@@ -7,7 +7,7 @@ const Header = () => {
       <HeaderWrapper>
         <div className="intro">
           <div className="name-profiles">
-            <h1 className="name">Janne Parviainen</h1>
+            <Name>Janne Parviainen</Name>
           </div>
           <Buzz>Business-minded fullstack developer, avid gamer, tech enthusiast, people person</Buzz>
         </div>

@@ -7,7 +7,6 @@ export const HeaderWrapper = styled.div`
   flex-direction: row;
 
   .name {
-    margin-bottom: 8px;
   }
 
   .intro {
@@ -32,5 +31,11 @@ export const Buzz = styled.div`
   font-size: 1.2em;
   font-style: italic;
   width: 100%;
-  font-weight: 300;
+  font-weight: 350;
+`;
+
+export const Name = styled.h1`
+  margin-bottom: 8px;
+  letter-spacing: 0.2em;
+  font-weight: 500;
 `;
