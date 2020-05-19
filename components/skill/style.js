@@ -13,6 +13,5 @@ export const StyledIcon = styled.span`
 `;
 
 export const StyledSkill = styled.span`
-  font-family: 'Fira Sans', sans-serif;
   font-size: 0.9em;
 `;

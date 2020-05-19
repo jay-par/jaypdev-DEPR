@@ -6,12 +6,9 @@ export const StyledWrapper = styled.div`
   align-items: center;
 `;
 
-export const StyledQuestion = styled.h2`
-  font-family: 'Old Standard TT', serif;
-`;
+export const StyledQuestion = styled.h2``;
 
 export const StyledAnswer = styled.p`
-  font-family: 'Fira Sans', sans-serif;
   font-size: 1.1em;
   font-weight: 300;
   line-height: 1.5;

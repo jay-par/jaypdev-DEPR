@@ -42,6 +42,4 @@ export const Divider = styled.hr`
   border-top: 1px solid black;
 `;
 
-export const StyledQuestion = styled.h2`
-  font-family: 'Old Standard TT', serif;
-`;
+export const StyledQuestion = styled.h2``;

@@ -1,18 +1,13 @@
 import styled from 'styled-components';
 
-export const StyledHeader = styled.div`
-  font-family: 'Old Standard TT', serif;
-  margin-bottom: 48px;
+export const HeaderWrapper = styled.div`
+  font-family: 'Baloo 2', serif;
+  margin-bottom: 36px;
   display: flex;
   flex-direction: row;
+
   .name {
     margin-bottom: 8px;
-  }
-
-  .buzz {
-    font-size: 1.4em;
-    width: 100%;
-    font-weight: 500;
   }
 
   .intro {
@@ -30,4 +25,12 @@ export const StyledHeader = styled.div`
     margin-bottom: 8px;
     padding: 10px;
   }
+`;
+
+export const Buzz = styled.div`
+  font-family: 'Roboto';
+  font-size: 1.2em;
+  font-style: italic;
+  width: 100%;
+  font-weight: 300;
 `;
