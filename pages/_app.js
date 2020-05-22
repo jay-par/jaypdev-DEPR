@@ -24,7 +24,7 @@ class JaypDev extends App {
             background-color: #ebeb6d;
             max-width: 1000px;
             height: 100%;
-            margin: 48px auto;
+            margin: 15px auto;
           }
           ,
           html,
