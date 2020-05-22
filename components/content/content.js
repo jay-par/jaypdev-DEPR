@@ -19,7 +19,7 @@ const Content = () => {
       <StyledColumnLeft>
         <QA
           question="Who am I?"
-          answer="My name is Janne. I'm a software developer, an architect, and a gamer among other things. I enjoy coding programming as much as the next developer, but I particularly enjoy the business side if development project. What brings the value, what are the KPIs, what is the problem we are trying to solve. And not always the answer is a technical."
+          answer="My name is Janne. I'm a software developer, an architect, and a gamer among other things. I enjoy programming as much as the next developer, however I particularly enjoy the business side of development project. What brings the tangible value, what are the KPIs, what is the problem we are trying to solve. And not always the answer is a technical."
         />
         <Divider />
         <QA question="What do I do?" answer={lorem} />
