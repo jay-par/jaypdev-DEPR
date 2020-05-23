@@ -8,8 +8,9 @@ export const StyledWrapper = styled.span`
   margin: 3px;
 `;
 
-export const StyledIcon = styled.div`
+export const StyledImg = styled.img`
   padding-right: 10px;
+  max-width: 30px;
 `;
 
 export const StyledSkill = styled.span`
