@@ -1,10 +1,13 @@
 import React from 'react';
 import { StyledWrapper, StyledIcon, StyledSkill } from './style';
 
-const Skill = ({ icon, skill }) => {
+const Skill = (skillContent) => {
+  const { alternativeText, skill } = skillContent;
   return (
     <StyledWrapper>
-      <StyledIcon>{icon}</StyledIcon>
+      <StyledIcon>
+        <img src={skillContent.icon.fields.file.url} alt={alternativeText} />
+      </StyledIcon>
       <StyledSkill>{skill}</StyledSkill>
     </StyledWrapper>
   );

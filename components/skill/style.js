@@ -8,7 +8,7 @@ export const StyledWrapper = styled.span`
   margin: 3px;
 `;
 
-export const StyledIcon = styled.span`
+export const StyledIcon = styled.div`
   padding-right: 10px;
 `;
 
