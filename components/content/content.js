@@ -22,7 +22,10 @@ const Content = () => {
           answer="My name is Janne. I'm a software developer, an architect, and a gamer among other things. I enjoy programming as much as the next developer, however I particularly enjoy the business side of development project. What brings the tangible value, what are the KPIs, what is the problem we are trying to solve. And not always the answer is a technical."
         />
         <Divider />
-        <QA question="What do I do?" answer={lorem} />
+        <QA
+          question="What do I do?"
+          answer="Being a full-stack senior developer entails coding(obviously), architecting, defining and designing technical implementations and use-cases. A big part of my job is also supporting sales with technical know-how and proposals for problems the business wants to solve. Mentoring my colleagues is something I particularly enjoy, everybody needs a sparring partner or helping hand from time to time. Being approachable, willing to help and listen are one of the most important skills you could have in this industry."
+        />
         <Divider />
         <QA question="What do I want to do?" answer={lorem} />
         <Divider />
