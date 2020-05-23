@@ -9,6 +9,7 @@ class JaypDev extends App {
     return (
       <div className="app">
         <Head>
+          <link rel="shortcut icon" href="favicon.ico" />
           <title>Janne Parviainen - web developer</title>
         </Head>
         <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&display=swap" rel="stylesheet" />
