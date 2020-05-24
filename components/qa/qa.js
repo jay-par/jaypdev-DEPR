@@ -1,13 +1,13 @@
 import React from 'react';
-import { StyledWrapper, StyledQuestion, StyledAnswer } from './style';
+import { Wrapper, Question, Answer } from './style';
 
 const QA = ({ question, answer }) => {
   return (
     <>
-      <StyledWrapper>
-        <StyledQuestion>{question}</StyledQuestion>
-      </StyledWrapper>
-      <StyledAnswer>{answer}</StyledAnswer>
+      <Wrapper>
+        <Question>{question}</Question>
+      </Wrapper>
+      <Answer>{answer}</Answer>
     </>
   );
 };

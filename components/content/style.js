@@ -40,4 +40,7 @@ export const Divider = styled.hr`
   border-top: 1px solid black;
 `;
 
-export const Question = styled.h2``;
+export const Question = styled.h2`
+  font-family: 'Baloo 2', serif;
+  font-weight: 500;
+`;

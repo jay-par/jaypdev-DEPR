@@ -14,5 +14,6 @@ export const Img = styled.img`
 `;
 
 export const Skill = styled.span`
-  font-size: 0.9em;
+  font-family: 'Roboto';
+  font-size: 1em;
 `;

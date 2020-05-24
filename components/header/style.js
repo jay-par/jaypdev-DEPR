@@ -6,16 +6,6 @@ export const HeaderWrapper = styled.div`
   display: flex;
   flex-direction: row;
 
-  // .intro {
-  //   display: flex;
-  //   flex-direction: column;
-  // }
-
-  // .name-profiles {
-  //   display: flex;
-  //   flex-direction: row;
-  // }
-
   @media only screen and (max-width: 1024px) {
     justify-content: center;
     width: 90%;
