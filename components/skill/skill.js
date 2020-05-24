@@ -1,15 +1,15 @@
 import React from 'react';
-import { StyledWrapper, StyledImg, StyledSkill } from './style';
+import { SkillWrapper, Img, Skill } from './style';
 
-const Skill = (skillContent) => {
+const ProfessionalSkill = (skillContent) => {
   const { alternativeText, skill } = skillContent;
   return (
-    <StyledWrapper>
-      <StyledImg src={skillContent.icon.fields.file.url} alt={alternativeText} />
+    <SkillWrapper>
+      <Img src={skillContent.icon.fields.file.url} alt={alternativeText} />
 
-      <StyledSkill>{skill}</StyledSkill>
-    </StyledWrapper>
+      <Skill>{skill}</Skill>
+    </SkillWrapper>
   );
 };
 
-export default Skill;
+export default ProfessionalSkill;

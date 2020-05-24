@@ -8,6 +8,10 @@ const PageWrapper = styled.div`
   background-repeat: no-repeat;
   background-size: 450px;
   background-position: right top;
+  @media only screen and (max-device-width: 1024px) {
+    margin: auto;
+    background-image: none;
+  }
 `;
 
 const Index = ({ pageContent }) => {

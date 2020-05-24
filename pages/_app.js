@@ -17,7 +17,6 @@ const JaypDev = ({ Component, pageProps }) => {
       <style jsx global>{`
           /* Other global styles such as 'html, body' etc... */
           body {
-
             background-color: #ebeb6d;
             max-width: 1000px;
             height: 100%;

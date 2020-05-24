@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledWrapper = styled.span`
+export const SkillWrapper = styled.span`
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -8,11 +8,11 @@ export const StyledWrapper = styled.span`
   margin: 3px;
 `;
 
-export const StyledImg = styled.img`
+export const Img = styled.img`
   padding-right: 10px;
   max-width: 30px;
 `;
 
-export const StyledSkill = styled.span`
+export const Skill = styled.span`
   font-size: 0.9em;
 `;

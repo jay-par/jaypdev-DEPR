@@ -6,23 +6,22 @@ export const HeaderWrapper = styled.div`
   display: flex;
   flex-direction: row;
 
-  .name {
-  }
+  // .intro {
+  //   display: flex;
+  //   flex-direction: column;
+  // }
 
-  .intro {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .name-profiles {
-    display: flex;
-    flex-direction: row;
-  }
+  // .name-profiles {
+  //   display: flex;
+  //   flex-direction: row;
+  // }
 
   @media only screen and (max-width: 1024px) {
-    flex-direction: column;
+    justify-content: center;
+    width: 90%;
     margin-bottom: 8px;
-    padding: 10px;
+    padding-bottom: 30px;
+    margin: auto;
   }
 `;
 
