@@ -1,16 +1,25 @@
 import React from 'react';
 import Head from 'next/head';
+import { GA_TRACKING_ID } from 'analytics/gtag';
 
 const JaypDev = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167508633-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'UA-167508633-1');
-        </script>
-
+        {/* Global Site Tag (gtag.js) - Google Analytics */}
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+          }}
+        />
         <link rel="shortcut icon" href="favicon.ico" />
         <title>Janne Parviainen - web developer</title>
         <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&display=swap" rel="stylesheet" />
