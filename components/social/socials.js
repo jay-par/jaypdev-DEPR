@@ -15,7 +15,7 @@ const Socials = () => {
           <img src="imgs/Twitter_Social_Icon_Circle_Color.png" />
         </a>
       </Link>
-      <Link href="//github.com/mr-jayp">
+      <Link href="//github.com/jay-par">
         <a target="_blank">
           <img src="imgs/GitHub-Mark-64px.png" />
         </a>
