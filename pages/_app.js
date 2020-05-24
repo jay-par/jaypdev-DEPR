@@ -5,6 +5,12 @@ const JaypDev = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167508633-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date()); gtag('config', 'UA-167508633-1');
+        </script>
+
         <link rel="shortcut icon" href="favicon.ico" />
         <title>Janne Parviainen - web developer</title>
         <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&display=swap" rel="stylesheet" />
