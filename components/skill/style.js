@@ -1,11 +1,15 @@
 import styled from 'styled-components';
 
-export const SkillWrapper = styled.span`
+export const SkillColumn = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   margin: 3px;
+  @media only screen and (max-width: 1024px) {
+    padding-right: 30px;
+    padding-bottom: 10px;
+  }
 `;
 
 export const Img = styled.img`

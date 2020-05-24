@@ -28,6 +28,7 @@ export const ColumnRight = styled.div`
   flex: 2;
   margin-top: 260px;
   margin-left: 20px;
+
   @media only screen and (max-width: 1024px) {
     margin-top: 0;
   }
@@ -43,4 +44,12 @@ export const Divider = styled.hr`
 export const Question = styled.h2`
   font-family: 'Baloo 2', serif;
   font-weight: 500;
+`;
+
+export const Skills = styled.div`
+  @media only screen and (max-width: 1024px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 `;

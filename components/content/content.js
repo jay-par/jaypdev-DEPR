@@ -3,7 +3,7 @@ import React from 'react';
 import QA from 'components/qa';
 import ProfessionalSkill from 'components/skill';
 import Socials from 'components/social';
-import { ContentWrapper, ColumnLeft, ColumnRight, Question, Divider } from './style';
+import { ContentWrapper, ColumnLeft, ColumnRight, Question, Divider, Skills } from './style';
 
 const lorem = 'faweeesgrareh alknhej';
 
@@ -23,9 +23,11 @@ const Content = ({ questions, skills }) => {
       </ColumnLeft>
       <ColumnRight>
         <Question>What I know:</Question>
-        {skills.map((item, i) => {
-          return <ProfessionalSkill {...item.fields} />;
-        })}
+        <Skills>
+          {skills.map((item, i) => {
+            return <ProfessionalSkill {...item.fields} />;
+          })}
+        </Skills>
         <Socials />
       </ColumnRight>
     </ContentWrapper>
