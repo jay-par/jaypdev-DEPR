@@ -1,5 +1,5 @@
 import React from 'react';
-import Markdown from 'markdown-to-jsx';
+
 import QA from 'components/qa';
 import ProfessionalSkill from 'components/skill';
 import Socials from 'components/social';
@@ -13,18 +13,12 @@ const Content = ({ questions, skills }) => {
           const { question, answer } = item.fields;
 
           if (questions.length - 1 === i) {
-            return (
-              <Markdown>
-                <QA question={question} answer={answer} />
-              </Markdown>
-            );
+            return <QA question={question} answer={answer} />;
           }
 
           return (
             <>
-              <Markdown>
-                <QA question={question} answer={answer} />
-              </Markdown>
+              <QA question={question} answer={answer} />
               <Divider />
             </>
           );

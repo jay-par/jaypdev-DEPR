@@ -16,12 +16,10 @@ const PageWrapper = styled.div`
 
 const Index = ({ pageContent }) => {
   return (
-    <>
-      <PageWrapper selfie={pageContent.selfie.fields.file.url}>
-        <Header />
-        <Content questions={pageContent.questions} skills={pageContent.skills} />
-      </PageWrapper>
-    </>
+    <PageWrapper selfie={pageContent.selfie.fields.file.url}>
+      <Header />
+      <Content questions={pageContent.questions} skills={pageContent.skills} />
+    </PageWrapper>
   );
 };
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
 import { Wrapper, Question, Answer } from './style';
 
 const QA = ({ question, answer }) => {
@@ -7,7 +8,9 @@ const QA = ({ question, answer }) => {
       <Wrapper>
         <Question>{question}</Question>
       </Wrapper>
-      <Answer>{answer}</Answer>
+      <Answer>
+        <ReactMarkdown source={answer} />
+      </Answer>
     </>
   );
 };
