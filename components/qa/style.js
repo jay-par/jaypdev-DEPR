@@ -18,7 +18,7 @@ export const Answer = styled.div`
   font-size: 1em;
   font-weight: 300;
   line-height: 1;
-  p {
+  p li {
     margin-top:: 8px;
     margin-bottom:: 8px;
     line-height: 1.5;
