@@ -17,7 +17,6 @@ export const Answer = styled.div`
   font-family: 'Roboto';
   font-size: 1em;
   font-weight: 300;
-  line-height: 1;
   p li {
     margin-top:: 8px;
     margin-bottom:: 8px;
