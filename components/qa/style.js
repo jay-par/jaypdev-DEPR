@@ -21,5 +21,6 @@ export const Answer = styled.div`
   p {
     margin-top:: 8px;
     margin-bottom:: 8px;
+    line-height: 1.5;
   }
 `;
