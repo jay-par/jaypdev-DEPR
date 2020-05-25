@@ -11,7 +11,7 @@ export const Question = styled.h2`
   font-weight: 300;
 `;
 
-export const Answer = styled.p`
+export const Answer = styled.div`
   font-family: 'Roboto';
   font-size: 1em;
   font-weight: 300;
