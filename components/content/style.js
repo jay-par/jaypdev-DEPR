@@ -20,6 +20,8 @@ export const ColumnLeft = styled.div`
   flex: 4;
   padding-left: 25px;
   padding-right: 25px;
+  padding-bottom: 25px;
+  padding-top: 10x;
 `;
 
 export const ColumnRight = styled.div`
@@ -36,8 +38,8 @@ export const ColumnRight = styled.div`
 
 export const Divider = styled.hr`
   width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-top: 1px solid black;
 `;
 
