@@ -20,6 +20,7 @@ const JaypDev = ({ Component, pageProps }) => {
           `,
           }}
         />
+        <meta name="description" content="Janne Parviainen web developer site"></meta>
         <link rel="shortcut icon" href="favicon-32x32.png" />
         <title>Janne Parviainen - web developer</title>
         <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400&display=swap" rel="stylesheet" />
