@@ -4,7 +4,7 @@ export const StyledSocials = styled.div`
   margin: 10px 0 0 0;
 
   img {
-    width: 44px;
-    margin: 5px;
+    width: 50px;
+    margin: 10px;
   }
 `;
