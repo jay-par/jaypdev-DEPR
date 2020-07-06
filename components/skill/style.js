@@ -6,9 +6,10 @@ export const SkillColumn = styled.div`
   justify-content: flex-start;
   align-items: center;
   margin: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   @media only screen and (max-width: 1024px) {
     padding-right: 30px;
-    padding-bottom: 10px;
   }
 `;
 
