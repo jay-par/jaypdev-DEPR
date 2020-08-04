@@ -14,7 +14,6 @@ export const ContentWrapper = styled.div`
 export const ColumnLeft = styled.div`
   background-color: #ffffee;
   border-radius: 4px;
-  box-shadow: 8px 16px 32px rgba(0, 0, 0, 0.15);
   display: flex;
   flex-direction: column;
   flex: 4;

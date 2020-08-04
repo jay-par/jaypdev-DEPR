@@ -21,10 +21,40 @@ export const Buzz = styled.div`
   font-style: italic;
   width: 100%;
   font-weight: 300;
+  background-color: black;
+  color: #ffffee;
+  padding: 5px;
 `;
 
 export const Name = styled.h1`
+  display: inline-block;
   margin-bottom: 8px;
   letter-spacing: 0.2em;
   font-weight: 500;
+  background-color: black;
+  color: #ffffee;
+  padding: 5px;
+  overflow: hidden;
+  border-right: 0.15em solid;
+  white-space: nowrap;
+  animation: typing 3.5s steps(30, start), blink-caret 0.8s step-end infinite;
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+      max-width: 337px;
+    }
+  }
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: white;
+    }
+  }
 `;
